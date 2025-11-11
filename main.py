@@ -21,8 +21,8 @@ def main():
         elif  cmd == "2":
             user = login()
             if user:
-               notify_user_tasks(user)
-            main_menu(user)
+                notify_user_tasks(user)
+                main_menu(user)
         elif cmd == "3":
             print("Keluar program. Bye.")
             break
